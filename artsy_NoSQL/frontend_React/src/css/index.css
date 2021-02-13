@@ -1,0 +1,181 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* NAVBAR */ 
+.container-artsy { 
+ 
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bg-white-artsy { display: flex;
+  align-items: center;
+  background:#FFFF;
+  color: black !important;
+}
+
+
+
+.bg-white-artsy a, li, ul {
+      color: black !important;
+      font-size: 1.2rem !important;
+      text-align: center;
+  }
+
+.bg-white-artsy a:hover{
+     background: #FDC8BC;
+  }
+
+  /* MAIN SECTION */ 
+
+.artsy-main {
+  background-color: #f2f2f2; 
+  margin: 2rem;
+}
+
+/*  PRODUCTS */
+
+.products {
+  margin: 2rem;
+}
+
+p.pricing {
+  font-family: 'Roboto', sans-serif;
+  color:#FDC8BC;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: line-through;
+
+}
+
+p.current-pricing {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+p.product-tag {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+img.picture-tag {
+  display: block;
+  width: 200px; 
+  height: 200px;
+
+}
+
+
+div.product-container {
+   display: flex;
+   flex-direction: column !important; 
+   align-items: center;
+   min-height: 300px;
+   max-height: 500px;
+  padding: 0.5rem;
+   margin-top: 0.5rem;
+  
+
+} 
+
+.product-wrapper {
+
+  min-height: 300px;
+   max-height: 500px;
+   margin: auto;
+}
+
+
+
+.product-container:hover {
+  -webkit-box-shadow: 1px 5px 15px 0px #997971; 
+  box-shadow: 1px 5px 15px 0px #997971;
+
+  
+
+}
+
+.btn-artsy {
+  font-family: 'Roboto', sans-serif !important; 
+  margin-left: 3.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.artsy-footer {
+  margin-top: auto;
+  padding: 2rem;
+  background: black;
+  color: white;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+
+.artsy-footer ul {
+
+  color: white !important;
+}
+.artsy-footer li {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  color: white !important; 
+  text-align: center;
+  margin-left: 2rem;
+
+
+}
+
+
+.artsy-footer h1, h2, h3, h4, h5, h6 {
+  font-family: 'Spartan', sans-serif;
+  
+}
+
+.central-de-atendimento {
+  display: flex;
+   flex-direction: column !important; 
+   align-items: center;
+  padding: 0.5rem;
+   margin-top: 0.5rem;
+    min-height: 60vh;
+  margin-bottom: 2rem;
+}
+
+.nossas-lojas {
+  list-style  : none;
+  display: flex;
+   flex-direction: row !important; 
+   justify-content: center;
+   align-items: flex-start;
+  padding: 0.5rem;
+   margin-top: 0.5rem;
+    min-height: 60vh;
+  margin-bottom: 2rem;
+}
+
+.nossas-lojas ul{
+  margin: 1rem;
+}
+
+form {
+color: black;
+
+}
